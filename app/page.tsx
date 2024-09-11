@@ -6,7 +6,7 @@ import { Input } from "@/components/ui/input"
 import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card"
 import { ExternalLink } from 'lucide-react'
 import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert"
-import { AnswerBlock } from '@/components/AnswerBlock'
+import { AnswerBlock } from '@/components/answer-block'
 
 export default function GeminiApp() {
   const [question, setQuestion] = useState('')
