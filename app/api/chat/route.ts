@@ -21,6 +21,12 @@ export async function POST(req: Request) {
     return NextResponse.json({ answer })
   } catch (error) {
     console.error('Google Gemini API error:', error)
-    return NextResponse.json({ error: 'An error occurred while processing your request.', details: error.message }, { status: 500 })
+    return NextResponse.json(
+      { 
+        error: 'An error occurred while processing your request.', 
+        details: error instanceof Error ? error.message : 'Unknown error'
+      }, 
+      { status: 500 }
+    )
   }
-} 
+}
