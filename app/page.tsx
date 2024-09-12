@@ -57,7 +57,8 @@ export default function GeminiApp() {
 
   return (
     <div className="container mx-auto p-4 max-w-3xl">
-      <h1 className="text-3xl font-bold mb-6 text-center">Dia do programador 2024 - Fidelidade</h1>
+      <h1 className="text-3xl font-bold mb-6 text-center">Welcome to rod.ai 😜</h1>
+      <h2 className="text-3xl font-bold mb-6 text-center">Dia do programador 2024 - Fidelidade</h2>
       
       <Card className="mb-6">
         <CardHeader>
@@ -69,7 +70,7 @@ export default function GeminiApp() {
               type="text"
               value={question}
               onChange={(e) => setQuestion(e.target.value)}
-              placeholder="Pode me perguntar sobre qualquer tópico da apresentação..."
+              placeholder="Podes me perguntar sobre qualquer tópico da apresentação que a rod.ai vai te ajudar..."
               className="w-full"
             />
             <Button type="submit" disabled={isLoading || !question}>
