@@ -48,10 +48,10 @@ export default function GeminiApp() {
   }
 
   const usefulLinks = [
-    { title: 'Apresentação', url: 'https://ai.google/' },
+    { title: 'Apresentação', url: 'https://miro.com/app/board/uXjVKlOtOR0=/?share_link_id=951659105454' },
     { title: 'Top 12 JavaScript Concepts to Know Before Learning React', url: 'https://www.geeksforgeeks.org/top-javascript-concepts-to-know-before-learning-react/' },
-    { title: 'Github @rpovoa', url: 'https://github.com/rpovoa' },
     { title: 'Modern JavaScript tutorial', url: 'https://www.modernjs.com' },
+    { title: 'Github @rpovoa', url: 'https://github.com/rpovoa' },
   
   ]
 
